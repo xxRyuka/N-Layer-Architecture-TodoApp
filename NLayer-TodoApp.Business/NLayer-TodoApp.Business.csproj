@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>NLayer_TodoApp.Business</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\NLayer-TodoApp.DataAccess\NLayer-TodoApp.DataAccess.csproj" />
+      <ProjectReference Include="..\NLayer-TodoApp.Dtos\NLayer-TodoApp.Dtos.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="14.0.0" />
+    </ItemGroup>
+
+</Project>

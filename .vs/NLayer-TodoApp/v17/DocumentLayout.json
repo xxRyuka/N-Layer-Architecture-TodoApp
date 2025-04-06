@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2434DC04-5844-469A-8C42-4380C670D4B1}|NLayer-TodoApp.UI\\NLayer-TodoApp.UI.csproj|c:\\users\\ryuka\\riderprojects\\nlayer-todoapp\\nlayer-todoapp.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2434DC04-5844-469A-8C42-4380C670D4B1}|NLayer-TodoApp.UI\\NLayer-TodoApp.UI.csproj|solutionrelative:nlayer-todoapp.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2434DC04-5844-469A-8C42-4380C670D4B1}|NLayer-TodoApp.UI\\NLayer-TodoApp.UI.csproj|c:\\users\\ryuka\\riderprojects\\nlayer-todoapp\\nlayer-todoapp.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2434DC04-5844-469A-8C42-4380C670D4B1}|NLayer-TodoApp.UI\\NLayer-TodoApp.UI.csproj|solutionrelative:nlayer-todoapp.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E91952E-8ED2-4A4E-932B-743F783D9D1A}|NLayer-TodoApp.DataAccess\\NLayer-TodoApp.DataAccess.csproj|c:\\users\\ryuka\\riderprojects\\nlayer-todoapp\\nlayer-todoapp.dataaccess\\nlayer-todoapp.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2E91952E-8ED2-4A4E-932B-743F783D9D1A}|NLayer-TodoApp.DataAccess\\NLayer-TodoApp.DataAccess.csproj|solutionrelative:nlayer-todoapp.dataaccess\\nlayer-todoapp.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.DataAccess\\Contexts\\TodoContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NLayer-TodoApp.DataAccess\\Contexts\\TodoContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 56,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.UI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "NLayer-TodoApp.UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.UI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "NLayer-TodoApp.UI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T14:58:14.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TodoContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.DataAccess\\Contexts\\TodoContext.cs",
+              "RelativeDocumentMoniker": "NLayer-TodoApp.DataAccess\\Contexts\\TodoContext.cs",
+              "ToolTip": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.DataAccess\\Contexts\\TodoContext.cs",
+              "RelativeToolTip": "NLayer-TodoApp.DataAccess\\Contexts\\TodoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T02:19:33.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NLayer-TodoApp.DataAccess.csproj",
+              "DocumentMoniker": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.DataAccess\\NLayer-TodoApp.DataAccess.csproj",
+              "RelativeDocumentMoniker": "NLayer-TodoApp.DataAccess\\NLayer-TodoApp.DataAccess.csproj",
+              "ToolTip": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.DataAccess\\NLayer-TodoApp.DataAccess.csproj",
+              "RelativeToolTip": "NLayer-TodoApp.DataAccess\\NLayer-TodoApp.DataAccess.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-02T02:19:26.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.UI\\Program.cs",
+              "RelativeDocumentMoniker": "NLayer-TodoApp.UI\\Program.cs",
+              "ToolTip": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.UI\\Program.cs",
+              "RelativeToolTip": "NLayer-TodoApp.UI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T02:13:28.742Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

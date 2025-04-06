@@ -1,0 +1,11 @@
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Dtos\bin\Debug\net8.0\NLayer-TodoApp.Dtos.deps.json
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Dtos\bin\Debug\net8.0\NLayer-TodoApp.Dtos.dll
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Dtos\bin\Debug\net8.0\NLayer-TodoApp.Dtos.pdb
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Dtos\obj\Debug\net8.0\NLayer-TodoApp.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Dtos\obj\Debug\net8.0\NLayer-TodoApp.Dtos.AssemblyInfoInputs.cache
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Dtos\obj\Debug\net8.0\NLayer-TodoApp.Dtos.AssemblyInfo.cs
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Dtos\obj\Debug\net8.0\NLayer-TodoApp.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Dtos\obj\Debug\net8.0\NLayer-TodoApp.Dtos.dll
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Dtos\obj\Debug\net8.0\refint\NLayer-TodoApp.Dtos.dll
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Dtos\obj\Debug\net8.0\NLayer-TodoApp.Dtos.pdb
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Dtos\obj\Debug\net8.0\ref\NLayer-TodoApp.Dtos.dll

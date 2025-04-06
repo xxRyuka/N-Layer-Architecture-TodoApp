@@ -1,0 +1,17 @@
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\bin\Debug\net8.0\NLayer-TodoApp.DataAccess.deps.json
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\bin\Debug\net8.0\NLayer-TodoApp.DataAccess.runtimeconfig.json
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\bin\Debug\net8.0\NLayer-TodoApp.DataAccess.dll
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\bin\Debug\net8.0\NLayer-TodoApp.DataAccess.pdb
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\bin\Debug\net8.0\NLayer-TodoApp.Entities.dll
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\bin\Debug\net8.0\NLayer-TodoApp.Entities.pdb
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\obj\Debug\net8.0\NLayer-TodoApp.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\obj\Debug\net8.0\NLayer-TodoApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\obj\Debug\net8.0\NLayer-TodoApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\obj\Debug\net8.0\NLayer-TodoApp.DataAccess.AssemblyInfo.cs
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\obj\Debug\net8.0\NLayer-TodoApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\obj\Debug\net8.0\NLayer-TodoApp.DataAccess.dll
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\obj\Debug\net8.0\refint\NLayer-TodoApp.DataAccess.dll
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\obj\Debug\net8.0\NLayer-TodoApp.DataAccess.pdb
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\obj\Debug\net8.0\NLayer-TodoApp.DataAccess.genruntimeconfig.cache
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\obj\Debug\net8.0\ref\NLayer-TodoApp.DataAccess.dll
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\obj\Debug\net8.0\NLayer-TodoApp.DataAccess.csproj.CopyComplete

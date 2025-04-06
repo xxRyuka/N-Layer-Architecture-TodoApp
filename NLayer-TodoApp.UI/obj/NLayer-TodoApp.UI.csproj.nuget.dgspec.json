@@ -1,0 +1,365 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.UI\\NLayer-TodoApp.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.Business\\NLayer-TodoApp.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.Business\\NLayer-TodoApp.Business.csproj",
+        "projectName": "NLayer-TodoApp.Business",
+        "projectPath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.Business\\NLayer-TodoApp.Business.csproj",
+        "packagesPath": "C:\\Users\\Ryuka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ryuka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.DataAccess\\NLayer-TodoApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.DataAccess\\NLayer-TodoApp.DataAccess.csproj"
+              },
+              "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.Dtos\\NLayer-TodoApp.Dtos.csproj": {
+                "projectPath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.Dtos\\NLayer-TodoApp.Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.DataAccess\\NLayer-TodoApp.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.DataAccess\\NLayer-TodoApp.DataAccess.csproj",
+        "projectName": "NLayer-TodoApp.DataAccess",
+        "projectPath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.DataAccess\\NLayer-TodoApp.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Ryuka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ryuka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.Entities\\NLayer-TodoApp.Entities.csproj": {
+                "projectPath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.Entities\\NLayer-TodoApp.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlserver": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.Dtos\\NLayer-TodoApp.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.Dtos\\NLayer-TodoApp.Dtos.csproj",
+        "projectName": "NLayer-TodoApp.Dtos",
+        "projectPath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.Dtos\\NLayer-TodoApp.Dtos.csproj",
+        "packagesPath": "C:\\Users\\Ryuka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ryuka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.Entities\\NLayer-TodoApp.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.Entities\\NLayer-TodoApp.Entities.csproj",
+        "projectName": "NLayer-TodoApp.Entities",
+        "projectPath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.Entities\\NLayer-TodoApp.Entities.csproj",
+        "packagesPath": "C:\\Users\\Ryuka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ryuka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.UI\\NLayer-TodoApp.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.UI\\NLayer-TodoApp.UI.csproj",
+        "projectName": "NLayer-TodoApp.UI",
+        "projectPath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.UI\\NLayer-TodoApp.UI.csproj",
+        "packagesPath": "C:\\Users\\Ryuka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ryuka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.Business\\NLayer-TodoApp.Business.csproj": {
+                "projectPath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.Business\\NLayer-TodoApp.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "bootstrap": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
