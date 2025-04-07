@@ -1,3 +1,4 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using NLayer_TodoApp.Business.Interfaces;
 using NLayer_TodoApp.DataAccess.UnitOfWork;
@@ -9,10 +10,11 @@ public class HomeController : Controller
 {
 
     private readonly IWorkService _workService;
-
-    public HomeController(IWorkService workService)
+    private readonly IMapper _mapper;
+    public HomeController(IWorkService workService, IMapper mapper)
     {
         _workService = workService;
+        _mapper = mapper;
     }
 
     public async Task<IActionResult> Index()
@@ -39,11 +41,7 @@ public class HomeController : Controller
     public async Task<IActionResult> Edit(int id)
     {
         var listdto = await _workService.GetWorkListByIdAsync(id);
-        return View(new WorkUpdateDto(){
-            Definition=listdto.Definition,
-            Id=listdto.Id,
-            isCompleted=listdto.isCompleted
-        });
+        return View(_mapper.Map<WorkUpdateDto>(listdto));
     }
 
     [HttpPost]
