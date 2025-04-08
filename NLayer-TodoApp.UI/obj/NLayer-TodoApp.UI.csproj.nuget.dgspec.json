@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.UI\\NLayer-TodoApp.UI.csproj": {}
+    "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.ui\\NLayer-TodoApp.UI.csproj": {}
   },
   "projects": {
     "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.Business\\NLayer-TodoApp.Business.csproj": {
@@ -279,14 +279,14 @@
         }
       }
     },
-    "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.UI\\NLayer-TodoApp.UI.csproj": {
+    "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.ui\\NLayer-TodoApp.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.UI\\NLayer-TodoApp.UI.csproj",
+        "projectUniqueName": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.ui\\NLayer-TodoApp.UI.csproj",
         "projectName": "NLayer-TodoApp.UI",
-        "projectPath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.UI\\NLayer-TodoApp.UI.csproj",
+        "projectPath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.ui\\NLayer-TodoApp.UI.csproj",
         "packagesPath": "C:\\Users\\Ryuka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.UI\\obj\\",
+        "outputPath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.ui\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

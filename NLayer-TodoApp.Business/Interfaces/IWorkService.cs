@@ -1,3 +1,4 @@
+using NLayer_TodoApp.Dtos.Interfaces;
 using NLayer_TodoApp.Dtos.WorkDtos;
 using NLayer_TodoApp.Entities.Domains;
 
@@ -7,8 +8,9 @@ public interface IWorkService
 {
     Task<List<WorkListDto>> GetWorkListsAsync();
     Task Create(WorkCreateDto workCreateDto);
-    Task<WorkListDto> GetWorkListByIdAsync(int id);
+    Task<IDto> GetByIdAsync<IDto>(int id);
     Task DeleteAsync(int id);
     
     Task Update(WorkUpdateDto workUpdateDto);
 }
+

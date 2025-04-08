@@ -15,3 +15,4 @@ C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\obj\Debug\
 C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\obj\Debug\net8.0\NLayer-TodoApp.DataAccess.genruntimeconfig.cache
 C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\obj\Debug\net8.0\ref\NLayer-TodoApp.DataAccess.dll
 C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\obj\Debug\net8.0\NLayer-TodoApp.DataAccess.csproj.CopyComplete
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.DataAccess\obj\Debug\net8.0\NLayer-TodoApp.DataAccess.sourcelink.json

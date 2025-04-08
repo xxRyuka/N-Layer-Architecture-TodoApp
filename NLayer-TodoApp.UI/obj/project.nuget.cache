@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c8BjvCQJ6X8=",
+  "dgSpecHash": "LZNtU5yYhC+0AZ106q1F9PD/LpM+NtmqRl835eB91TWTee5plc5+nxu7YaZbY0+yFZ86mlWUG2LIJd7FCSzEVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.UI\\NLayer-TodoApp.UI.csproj",
+  "projectFilePath": "C:\\Users\\Ryuka\\RiderProjects\\NLayer-TodoApp\\NLayer-TodoApp.ui\\NLayer-TodoApp.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ryuka\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Ryuka\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",

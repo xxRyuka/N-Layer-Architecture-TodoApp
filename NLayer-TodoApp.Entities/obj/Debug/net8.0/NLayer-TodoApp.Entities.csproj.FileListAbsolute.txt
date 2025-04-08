@@ -9,3 +9,4 @@ C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Entities\obj\Debug\ne
 C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Entities\obj\Debug\net8.0\refint\NLayer-TodoApp.Entities.dll
 C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Entities\obj\Debug\net8.0\NLayer-TodoApp.Entities.pdb
 C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Entities\obj\Debug\net8.0\ref\NLayer-TodoApp.Entities.dll
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Entities\obj\Debug\net8.0\NLayer-TodoApp.Entities.sourcelink.json

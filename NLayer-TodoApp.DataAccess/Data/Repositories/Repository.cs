@@ -33,13 +33,16 @@ public class Repository<T> : IRepository<T> where T : BaseEntity
     public void Update(T entity)
     {
 
-
+// entitylerimi base entityden kalıtıp , id değerini base entitye verdiğim için bu işlemi yapabiliyorum
         var updatedEntity = _context.Set<T>().Find(entity.Id);
 
-        _context.Update(updatedEntity);
+
+        // Bütün alanlari modified olarak işaretlemesini istemiyorum oyüzden aşağıdaki metodu kullandım
+        // _context.Update(updatedEntity);
+
+
 
         _context.Entry(updatedEntity).CurrentValues.SetValues(entity);
-
     }
 
     public async Task<List<T>> GetAllAsync()

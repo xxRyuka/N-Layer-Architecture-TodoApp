@@ -260,3 +260,4 @@ C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.UI\bin\Debug\net8.0\r
 C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.UI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.UI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.UI\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.UI\obj\Debug\net8.0\NLayer-TodoApp.UI.sourcelink.json

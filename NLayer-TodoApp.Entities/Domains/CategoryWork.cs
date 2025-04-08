@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace NLayer_TodoApp.Entities.Domains;
 
 public class CategoryWork

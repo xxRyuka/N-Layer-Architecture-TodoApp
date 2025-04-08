@@ -40,8 +40,9 @@ public class HomeController : Controller
 
     public async Task<IActionResult> Edit(int id)
     {
-        var listdto = await _workService.GetWorkListByIdAsync(id);
-        return View(_mapper.Map<WorkUpdateDto>(listdto));
+        // Mapperi kaldirip WorkService refactor edelim  
+        var listdto = await _workService.GetByIdAsync<WorkUpdateDto>(id);
+        return View(listdto); 
     }
 
     [HttpPost]
@@ -49,10 +50,12 @@ public class HomeController : Controller
     {
         if (updateDto.Id == id)
         {
-            var entity = await _workService.GetWorkListByIdAsync(id);
+            ;
             await _workService.Update(updateDto);
             return RedirectToAction("Index");
         }
+        Console.WriteLine("----- Updated Entity ------");
+
         return View(updateDto);
     }
 

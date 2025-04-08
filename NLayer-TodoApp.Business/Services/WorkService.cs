@@ -1,6 +1,7 @@
 using AutoMapper;
 using NLayer_TodoApp.Business.Interfaces;
 using NLayer_TodoApp.DataAccess.UnitOfWork;
+using NLayer_TodoApp.Dtos.Interfaces;
 using NLayer_TodoApp.Dtos.WorkDtos;
 using NLayer_TodoApp.Entities.Domains;
 
@@ -41,14 +42,14 @@ public class WorkService : IWorkService
         }
     } // Mapped
 
-    public async Task<WorkListDto> GetWorkListByIdAsync(int id)
+    public async Task<IDto> GetByIdAsync<IDto>(int id)
     {
+        // Burda muazzam birşey yaptik artık getbyId<T> generic hale getirdik 
+        // ornek kullanık GetById<WorkUpdateDto>(id?)  muazzam birşey oldu ya 
         var entity = await _uow.GetRepository<Work>().GetByFilter(x => x.Id == id);
         
-        if (entity is null) return null!; // Eğer kayıt bulunamazsa null dön.
-        
-        
-        return _mapper.Map<WorkListDto>(entity);
+        var dto = _mapper.Map<IDto>(entity); 
+        return (dto);
         
         
         // return new()
