@@ -63,6 +63,26 @@
         }
       },
       "bootstrap/5.3.3": {},
+      "FluentValidation/11.11.0": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.11.0.0"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/11.11.0": {
+        "dependencies": {
+          "FluentValidation": "11.11.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.11.0.0"
+          }
+        }
+      },
       "Humanizer/2.14.1": {
         "dependencies": {
           "Humanizer.Core.af": "2.14.1",
@@ -1880,11 +1900,19 @@
       "NLayer-TodoApp.Business/1.0.0": {
         "dependencies": {
           "AutoMapper": "14.0.0",
+          "FluentValidation": "11.11.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.11.0",
+          "NLayer-TodoApp.Common": "1.0.0",
           "NLayer-TodoApp.DataAccess": "1.0.0",
           "NLayer-TodoApp.Dtos": "1.0.0"
         },
         "runtime": {
           "NLayer-TodoApp.Business.dll": {}
+        }
+      },
+      "NLayer-TodoApp.Common/1.0.0": {
+        "runtime": {
+          "NLayer-TodoApp.Common.dll": {}
         }
       },
       "NLayer-TodoApp.DataAccess/1.0.0": {
@@ -1942,6 +1970,20 @@
       "sha512": "sha512-iQohLXwneNPDyW4x24mKQ90qGwT5WTtNl3KybL0koTluJPjKYxFCU/NTLHsJiWR2n7VmnwcpAgr8TR42KNmPOg==",
       "path": "bootstrap/5.3.3",
       "hashPath": "bootstrap.5.3.3.nupkg.sha512"
+    },
+    "FluentValidation/11.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cyIVdQBwSipxWG8MA3Rqox7iNbUNUTK5bfJi9tIdm4CAfH71Oo5ABLP4/QyrUwuakqpUEPGtE43BDddvEehuYw==",
+      "path": "fluentvalidation/11.11.0",
+      "hashPath": "fluentvalidation.11.11.0.nupkg.sha512"
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-viTKWaMbL3yJYgGI0DiCeavNbE9UPMWFVK2XS9nYXGbm3NDMd0/L5ER4wBzmTtW3BYh3SrlSXm9RACiKZ6stlA==",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.11.0",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512"
     },
     "Humanizer/2.14.1": {
       "type": "package",
@@ -3022,6 +3064,11 @@
       "hashPath": "system.windows.extensions.7.0.0.nupkg.sha512"
     },
     "NLayer-TodoApp.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NLayer-TodoApp.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

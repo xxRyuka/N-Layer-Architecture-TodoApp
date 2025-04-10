@@ -12,8 +12,7 @@ public class WorkConfiguration : IEntityTypeConfiguration<Work>
         builder.HasKey(x => x.Id);
 
         builder.Property(x => x.Definition).HasMaxLength(350);
-        builder.Property(x => x.Definition).IsRequired(true);
-        builder.Property(x => x.isCompleted).IsRequired(true);
+
 
 
 

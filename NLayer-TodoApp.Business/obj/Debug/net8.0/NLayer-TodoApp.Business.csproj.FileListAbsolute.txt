@@ -18,3 +18,5 @@ C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Business\obj\Debug\ne
 C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Business\obj\Debug\net8.0\ref\NLayer-TodoApp.Business.dll
 C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Business\obj\Debug\net8.0\NLayer-TodoApp.Business.csproj.CopyComplete
 C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Business\obj\Debug\net8.0\NLayer-TodoApp.Business.sourcelink.json
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Business\bin\Debug\net8.0\NLayer-TodoApp.Common.dll
+C:\Users\Ryuka\RiderProjects\NLayer-TodoApp\NLayer-TodoApp.Business\bin\Debug\net8.0\NLayer-TodoApp.Common.pdb

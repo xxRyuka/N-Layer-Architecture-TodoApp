@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer-TodoApp.Dtos", "NLay
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer-TodoApp.UI", "NLayer-TodoApp.UI\NLayer-TodoApp.UI.csproj", "{2434DC04-5844-469A-8C42-4380C670D4B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer-TodoApp.Common", "NLayer-TodoApp.Common\NLayer-TodoApp.Common.csproj", "{E0CBF377-BD9E-4C0C-85F4-CBE5977E30AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{2434DC04-5844-469A-8C42-4380C670D4B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2434DC04-5844-469A-8C42-4380C670D4B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2434DC04-5844-469A-8C42-4380C670D4B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0CBF377-BD9E-4C0C-85F4-CBE5977E30AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0CBF377-BD9E-4C0C-85F4-CBE5977E30AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0CBF377-BD9E-4C0C-85F4-CBE5977E30AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0CBF377-BD9E-4C0C-85F4-CBE5977E30AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

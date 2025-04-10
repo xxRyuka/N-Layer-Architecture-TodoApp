@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -10,8 +11,10 @@ using NLayer_TodoApp.Business.DependencyResolvers.Microsoft;
 using NLayer_TodoApp.Business.Interfaces;
 using NLayer_TodoApp.Business.Mappings.AutoMapper;
 using NLayer_TodoApp.Business.Services;
+using NLayer_TodoApp.Business.Validations;
 using NLayer_TodoApp.DataAccess.Contexts;
 using NLayer_TodoApp.DataAccess.UnitOfWork;
+using NLayer_TodoApp.Dtos.WorkDtos;
 
 namespace NLayer_TodoApp.Business.DependencyResolvers.Microsoft
 {
@@ -33,6 +36,11 @@ namespace NLayer_TodoApp.Business.DependencyResolvers.Microsoft
             services.AddSingleton(mapper);
             services.AddScoped<IUow, Uow>();
             services.AddScoped<IWorkService, WorkService>();
+            
+            
+
+            services.AddTransient<IValidator<WorkCreateDto>, WorkCreateDtoValidator>();
+            services.AddTransient<IValidator<WorkUpdateDto>, WorkUpdateDtoValidator>();
          }
     }
 }

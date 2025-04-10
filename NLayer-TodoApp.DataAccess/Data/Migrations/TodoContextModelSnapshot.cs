@@ -65,7 +65,6 @@ namespace NLayer_TodoApp.DataAccess.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Definition")
-                        .IsRequired()
                         .HasMaxLength(350)
                         .HasColumnType("nvarchar(350)");
 

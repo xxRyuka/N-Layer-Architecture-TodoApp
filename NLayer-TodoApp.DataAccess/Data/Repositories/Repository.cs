@@ -30,19 +30,9 @@ public class Repository<T> : IRepository<T> where T : BaseEntity
         _context.Set<T>().Remove(entity);
     }
 
-    public void Update(T entity)
+    public void Update(T entity, T originalEntity)
     {
-
-// entitylerimi base entityden kalıtıp , id değerini base entitye verdiğim için bu işlemi yapabiliyorum
-        var updatedEntity = _context.Set<T>().Find(entity.Id);
-
-
-        // Bütün alanlari modified olarak işaretlemesini istemiyorum oyüzden aşağıdaki metodu kullandım
-        // _context.Update(updatedEntity);
-
-
-
-        _context.Entry(updatedEntity).CurrentValues.SetValues(entity);
+        _context.Entry(originalEntity).CurrentValues.SetValues(entity);
     }
 
     public async Task<List<T>> GetAllAsync()
@@ -53,7 +43,7 @@ public class Repository<T> : IRepository<T> where T : BaseEntity
 
     public async Task<T> GetByFilter(Expression<Func<T, bool>>? predicate, bool AsNoTracking = false)
     {
-        return  AsNoTracking
+        return AsNoTracking
             ? await _context.Set<T>().Where(predicate!).AsNoTracking().FirstOrDefaultAsync()
             : await _context.Set<T>().Where(predicate).FirstOrDefaultAsync();
     }

@@ -8,12 +8,15 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\NLayer-TodoApp.Common\NLayer-TodoApp.Common.csproj" />
       <ProjectReference Include="..\NLayer-TodoApp.DataAccess\NLayer-TodoApp.DataAccess.csproj" />
       <ProjectReference Include="..\NLayer-TodoApp.Dtos\NLayer-TodoApp.Dtos.csproj" />
     </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="AutoMapper" Version="14.0.0" />
+      <PackageReference Include="FluentValidation" Version="11.11.0" />
+      <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
     </ItemGroup>
 
 </Project>
